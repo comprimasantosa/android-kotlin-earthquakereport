@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Earthquake Report</string>
+    <string name="text_please_check_your_internet_connection">Please check your internet connection</string>
+    <string name="text_no_data_available">No data available</string>
+</resources>
