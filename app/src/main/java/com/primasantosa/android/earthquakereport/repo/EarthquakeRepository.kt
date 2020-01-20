@@ -35,19 +35,7 @@ class EarthquakeRepository(
         } catch (e: Exception) {
             Timber.i("$e")
         }
-//        return list.map {
-//            it.properties
-//        }
     }
-
-//    suspend fun cacheEarthquakeData(earthquake: Earthquake) {
-//        return earthquakeDao.cacheEarthquakeData(earthquake)
-//    }
-
-//    suspend fun clearCacheEarthquakeData() {
-//        return earthquakeDao.clearCacheEarthquakeData()
-//    }
-
     val getEarthquakeData: LiveData<List<Earthquake>> = earthquakeDao.getEarthquakeData()
 
 }
